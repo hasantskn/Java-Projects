@@ -1,0 +1,45 @@
+// Please uncomment the piece of code you want to run. If there is a running piece of code put it in comment line mode before running other piece of code.
+
+public class Main {
+    public static void main(String[] args) {
+       //  TODO code application logic here
+        cMatrix m1 = new cMatrix();
+        m1.AssignRandom();
+        m1.printMatrix();
+        System.out.println("");
+        m1.printMatrixWithPrime();
+        cMatrix m2 = new cMatrix(10,20);
+        m2.AssignRandom();
+        cMatrix m3 = new cMatrix(20,10);
+        m3.AssignRandom();
+        cMatrix m4 = new cMatrix();
+        m4 = m2.multiplyMatrices(m3);
+        m4.printMatrixWithPrime();
+
+//        //For testing
+//        System.out.println("***********************************");
+//        cMatrix c1 = new cMatrix(10,10);
+//        c1.AssignRandom();
+//        c1.printMatrix();
+//        System.out.println("-----------------------------------");
+//        cMatrix c2  = new cMatrix(10,10);
+//        c2.AssignRandom();
+//        c2.printMatrix();
+//        System.out.println("-----------------------------------");
+//        c1.multiplyMatrices(c2).printMatrix();
+
+
+
+//        // TODO code application logichere
+//        cMatrix m5 = new cMatrix(1000,1000);
+//        m5.AssignRandom();
+//        cMatrix m6 = new cMatrix(1000,1000);
+//        m6.AssignRandom();
+//        cMatrix m7 = new cMatrix();
+//        m7 = m5.multiplyMatrices(m6);
+////        m7.printMatrix();
+        
+
+    }
+}
+
