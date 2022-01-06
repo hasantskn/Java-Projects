@@ -1,0 +1,15 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String path = "HW3Q2.txt";
+		String outputFile = "output.txt";
+		Shape shape = new Shape();
+
+		shape.ReadShapeFile(path);
+		shape.OutputShapes();
+		shape.OutputShapesToFile(outputFile);
+	}
+
+}
