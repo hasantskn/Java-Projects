@@ -1,0 +1,23 @@
+There are 4 shapes
+Shape 1
+****
+ ** 
+ ** 
+   *
+
+Shape 2
+*
+
+Shape 3
+  **  
+****  
+* ** *
+**** *
+    * 
+
+Shape 4
+ ** 
+****
+*  *
+*  *
+
